@@ -3,7 +3,7 @@
     internal class Helpers
     {
         internal static List<string> games = new();
-        internal static int highScore = 0;
+        internal static int highScore;
 
         internal static void LogScore(int score, string gameType)
         {

@@ -1,8 +1,6 @@
 ﻿namespace TCSA.MathGame;
 internal class GameEngine
 {
-    internal int highScore = 0;
-
     internal void StartGame(string mathOperator)
     {
         int score = 0;
